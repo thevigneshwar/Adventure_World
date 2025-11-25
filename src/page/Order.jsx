@@ -25,7 +25,8 @@ const Order = ({order}) => {
                 <p>{product.name} (x {product.quantity})</p>
                 <p>{product.price * product.quantity}</p>
             </div>
-        } )}
+        
+       } )}
        </div>
        <div className='mt-4 flex justify-between'>
        <span>Total Price:</span>

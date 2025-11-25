@@ -11,7 +11,7 @@ import { useNavigate } from "react-router-dom";
 
 
 const Home = () => {
-  print("hello")
+  // console("hello")
   const dispatch = useDispatch()
   const products = useSelector(state => state.product)
   useEffect(() => {

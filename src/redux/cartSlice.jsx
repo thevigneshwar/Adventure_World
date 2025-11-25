@@ -33,7 +33,7 @@ const cartSlice = createSlice({
             }
             state.totalPrice += newItem.price
             state.totalQuantity++;
-            print(state)
+            // print(state)
         },
         removeFromCart(state, action) {
              const id = action.payload;
